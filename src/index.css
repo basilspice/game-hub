@@ -19,16 +19,16 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-button {
+.buttonSticky {
   background-color: darkgray;
   color: darkslateblue;
   box-shadow: 0 12px 16px 0 rgba(72,61,139,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
   border-radius: 5px;
   border: solid 2px darkslateblue;
 }
-button:hover {
-  background-color: darkgray;
-  color: darkslateblue;
+.buttonSticky:hover {
+  background-color: darkslateblue;
+  color: darkgray;
   box-shadow: 0 12px 16px 0 rgba(72,61,139,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
   border-radius: 5px;
   border: solid 2px darkslateblue;
