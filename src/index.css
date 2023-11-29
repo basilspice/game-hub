@@ -1,3 +1,38 @@
 form {
   width: 100%
 }
+
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  vertical-align: bottom;
+  font-size: 1rem;
+  color: #286c79;
+  text-decoration: none;
+  position: fixed;
+  bottom: 0;
+  margin-left: 50%;
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+button {
+  background-color: darkgray;
+  color: darkslateblue;
+  box-shadow: 0 12px 16px 0 rgba(72,61,139,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  border-radius: 5px;
+  border: solid 2px darkslateblue;
+}
+button:hover {
+  background-color: darkgray;
+  color: darkslateblue;
+  box-shadow: 0 12px 16px 0 rgba(72,61,139,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  border-radius: 5px;
+  border: solid 2px darkslateblue;
+}
+span {
+  font-size: 1rem
+}

@@ -9,6 +9,7 @@ import { Platform } from "./hooks/useGames";
 import SortSelector from "./components/SortSelector";
 import { SiAdobeacrobatreader } from "react-icons/si";
 import GameHeading from "./components/GameHeading";
+import StickyFooter from "./components/StickyFooter";
 
 export interface GameQuery {
   genre: Genre | null;
@@ -20,6 +21,7 @@ export interface GameQuery {
 function App() {
   const [gameQuery, setGameQuery] = useState<GameQuery>({} as GameQuery);
   return (
+    <>
     <Grid
       templateAreas={{
         base: `"nav" "main"`,
@@ -66,6 +68,11 @@ function App() {
         <GameGrid gameQuery={gameQuery} />
       </GridItem>
     </Grid>
+ <Box alignContent='flex-end'>
+
+ <StickyFooter  />
+ </Box>
+  </>
   );
 }
 export default App;
